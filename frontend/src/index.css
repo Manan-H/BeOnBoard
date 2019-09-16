@@ -1,0 +1,347 @@
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: rgb(14, 9, 90);
+outline: 1px solid slategrey;
+border-radius: 10px;
+}
+.login-form {
+  max-width: 300px;
+}
+.login-form-forgot {
+  float: right;
+}
+.login-form-button {
+  width: 100%;
+}
+
+.ant-form.ant-form-horizontal.login-form {
+  margin: 0 auto;
+}
+.ant-btn.submitButton.ant-btn-primary {
+  margin-right: 8px;
+}
+.custom-menu > .ant-menu {
+  border-bottom: 0 !important;
+  margin: 15px;
+  float: right;
+}
+.ant-form.ant-form-horizontal.login-form {
+  margin: 0 auto;
+}
+.ant-btn.submitButton.ant-btn-primary {
+  margin-right: 8px;
+}
+
+.ant-menu-item-selected {
+  border-bottom: 0 !important;
+  color: inherit !important;
+}
+.custom-menu-item {
+  border-bottom: 2px solid transparent !important;
+  color: inherit !important;
+}
+.custom-menu-item:hover {
+  border-bottom: 2px solid transparent !important;
+  color: inherit !important;
+}
+.custom-menu-item > .ant-badge {
+  top: 7px;
+}
+.custom-menu-item > .ant-badge {
+  position: relative;
+  top: 4px;
+}
+.custom-menu-item > .ant-badge > .anticon {
+  margin-right: 0;
+}
+.ant-popover-placement-bottom,
+.ant-popover-placement-bottomLeft,
+.ant-popover-placement-bottomRight {
+  top: 65px !important;
+}
+
+.cardContainer {
+  height: 316px;
+  width: 240px;
+  position: relative;
+  margin: 10px 20px;
+}
+
+.cardWrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+.cardContainer:hover .cardWrapper {
+  transform: rotateY(180deg);
+}
+.cardFront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(0deg);
+}
+.cardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e8e8e8;
+}
+
+.userCard {
+  transition: 0.9s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.cardSkills {
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 255px;
+  overflow: hidden;
+}
+
+.profilePhotosContainer {
+  max-width: 320px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
+
+}
+.profilePhotosContainer::-webkit-scrollbar {
+  height: 7px;
+}
+.profilePhotosContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.profilePhotosContainer::-webkit-scrollbar-thumb {
+background-color: rgb(14, 9, 90);
+outline: 1px solid slategrey;
+border-radius: 10px;
+}
+
+.profilePhotosWrapper{
+  position:relative;
+  width: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 380px;
+  height: 400px;
+  object-fit: cover;
+  box-shadow: 2px 6px 8px -1px rgba(0, 0, 0, 0.19);
+}
+
+.profileSectionContainer {
+  margin: 0 10px 10px 0;
+  height: 38vh;
+  border: 0.5px solid #e8e8e8;
+  box-sizing: border-box;
+  box-shadow: 2px 6px 8px -1px rgba(0, 0, 0, 0.19);
+}
+
+.profileSectionIcon {
+  display: inline-flex;
+  width: 30%;
+  height: 30vh;
+  border-right: 0.1px solid #e8e8e8;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileSection {
+  display: inline-flex;
+  width: 70%;
+  height: 35vh;
+  transform: translateY(-15vh);
+  padding-left: 10px;
+}
+.profileSectionContainer {
+  margin: 0 10px 10px 0;
+  height: auto;
+  border: 0.5px solid #e8e8e8;
+  box-sizing: border-box;
+  box-shadow: 2px 6px 8px -1px rgba(0, 0, 0, 0.19);
+  position: relative;
+  padding: 0 20px 20px;
+}
+
+.iconBackground {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #f5f5f5;
+  display: inline-block;
+  margin: 5px 12px 0px 0;
+  transform: translateY(7px);
+}
+
+.socialIconProfile {
+  font-size: 25px;
+  margin: 10px 20px 30px 0;
+}
+.custom-card .ant-card-meta-description {
+  color: #f5f5f5 !important;
+}
+
+.custom-card .ant-card-meta-title {
+  color: #f5f5f5 !important;
+}
+
+.loginPageWrapper {
+  position: relative;
+  text-align: center;
+  height: 65vh;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.loginPageContent {
+  height: 135px;
+  transform: translateY(140%);
+}
+
+.loginPageTitle{
+  margin-bottom: 40px !important;
+  color: white !important;
+  text-shadow: 3px 3px #00000026;
+}
+
+.loginPageBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 100px;
+  z-index: -5;
+  opacity: 0.8;
+  width: 100%;
+  height: 65vh;
+  margin-bottom: 10px;
+}
+
+.loginPageAbout{
+  padding: 5% 20% 2%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  color:rgba(26,26,26,.7);
+}
+
+.quest-container .ant-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 7px rgba(0, 0, 0, 0);
+  }
+}
+
+.pulse-icon {
+  animation: shadow-pulse 1s infinite;
+  width: 23px !important;
+  border-radius: 100%;
+}
+
+.custom-card-height {
+  height: 500px;
+}
+
+.quiz-container .ant-card-head {
+  background: white;
+  z-index: 999999;
+  position: relative;
+}
+
+.quiz-body-card-disabler {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 555;
+  left: 0;
+  top: 0;
+  background: #f3f3f3a6;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.quiz-info {
+  float: right;
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 25px;
+  font-weight: bold;
+}
+
+.quiz-info > li {
+   margin-bottom: 5px;
+}
+
+.quiz-list .ant-card-meta-detail {
+  margin-top: 16px;
+}
+
+.loginVideo {
+  background-image: url(images/videoPoster.JPG);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: center;
+  }
+
+.ant-popover-inner-content div:last-child {
+  border-bottom: 0 !important;
+}
+@media screen and (max-width: 750px) {
+  .loginPageWrapper {
+    height: 200px;
+  }
+  .loginPageContent {
+    transform: translateY(35%);
+  }
+  .loginPageTitle {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .profilePic{
+    width: 150px;
+    height: 170px;
+  }
+  .profilePhotosContainer{
+    width: 100px;
+  }
+  .profilePhotosWrapper{
+    width: 150px;
+  }
+}

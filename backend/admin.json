@@ -1,0 +1,14 @@
+{
+    "name": "John",
+    "surname": "Smith",
+    "email": "john.smith@gmail.com",
+    "phoneNumber": "216546515",
+    "birthday": "12/05/2010",
+    "position": "CEO",
+    "education": "PHD",
+    "professionalSkills": [],
+    "photos": [],
+    "hobbies": [],
+    "experience": 10,
+    "userType": 1
+}

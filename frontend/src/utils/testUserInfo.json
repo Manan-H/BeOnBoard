@@ -1,0 +1,26 @@
+{
+    "name": "Aooa",
+    "surname": "Ooaaaoooa",
+    "email": "dk@a.a",
+    "phone": "+37495 00 00 00",
+    "bday": "01.01.1900",
+    "position": "Full Stack Developer",
+    "education": "AUA",
+    "photos": [
+        "https://swlincolnsurgerycenter.com/wp-content/uploads/2016/01/ff7300.pngtextPlaceholder-200x300.png", 
+        "https://swlincolnsurgerycenter.com/wp-content/uploads/2016/01/ff7300.pngtextPlaceholder-200x300.png", 
+        "https://swlincolnsurgerycenter.com/wp-content/uploads/2016/01/ff7300.pngtextPlaceholder-200x300.png", 
+        "https://swlincolnsurgerycenter.com/wp-content/uploads/2016/01/ff7300.pngtextPlaceholder-200x300.png"
+    ],
+    "profilePhoto": null,
+    "hobbies": ["hobby1", "hobby2", "hobby3", "hobby4"],
+    "notifications": [
+        { "title": "title1", "text": "text1", "seen": false },
+        { "title": "title2", "text": "text2", "seen": true },
+        { "title": "title3", "text": "text3", "seen": false }
+    ],
+    "exp": null,
+    "userType": null,
+    "firstLogin": false,
+    "id": "asda"
+}
